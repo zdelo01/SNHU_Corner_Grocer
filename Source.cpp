@@ -151,7 +151,6 @@ Example: if freq = 3 -> execute 'cout << "*"' 3 times
 @param freq - frequency of a word passed while reading 'frequency.dat'
 @return - N/A
 */
-
 void printAsterisk(int freq)
 {
     for (int i = 0; i < freq; i++)
@@ -159,6 +158,7 @@ void printAsterisk(int freq)
         cout << "*";
     }
 }
+
 /*
 Description: Reads 'frequency.dat' and outputs the list of items with asterisks in the value's place.
              Output is similar to "determineInventory", however, the values are converted to asterisks
